@@ -44,14 +44,22 @@ function setup() {
     
     fillRandomColor();
     arc(100,450,200,200,0,PI)
+
+    fillRandomColor();
+    beginShape()
+    vertex(0,450)
+    vertex(200,450)
+    vertex(200,350)
+    endShape()
     
    fill(255)
     textFont('helvetica')
     textSize(28)
-    text('loren', -65+width/2,-80+height/2)
+    text('random', -98+width/2,-80+height/2)
     textAlign(CENTER)
+    
    
-    text('ipsum',40+width/2,-100+height/2)
+    text('colors',40+width/2,-100+height/2)
     noLoop();
   }
       ///this is kind of a redundant function. im realizing 
